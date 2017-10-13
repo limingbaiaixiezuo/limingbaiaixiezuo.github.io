@@ -1,0 +1,118 @@
+/*设置盒子宽度*/
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/*设置字体*/
+body {
+  font-family: 'Geo', sans-serif;
+}
+img {
+  width: 100%;
+}
+a {
+  padding:1.5em;
+}
+h1,
+h2,
+h4 {
+  margin:0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  height: 100px;
+}
+.imgcontainer {
+width: 50%;
+}
+.logo {
+  width: 30%;
+}
+.header {
+  width: 50%;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.title1-1 {
+  font-size: 2.5em;
+  font-weight: 100;
+}
+.title2-1 {
+  font-size: 1em;
+  font-weight: 200;
+}
+/*设置分界线样式*/
+.line {
+  height: 4px;
+  background-color: #7d97ad;
+
+}
+
+.row1 {
+  width: 100%;
+}
+.article-name {
+  font-size: 1.3em;
+  text-align: right;
+}
+.link-blog{
+  text-align: right;
+  margin-top: -10px;
+}
+
+.row2 {
+  color: #7d97ad;
+
+  font-size: 1.8em;
+  margin-left: 10px;
+}
+.title3 {
+  font-weight: 200;
+  opacity: 0.7;
+}
+.row3 {
+  text-align: center;
+  vertical-align: text-bottom;
+  display: flex;
+  width: 100%;
+  float: left;
+}
+/*均分分配三个图片的位置*/
+.col-md-4 {
+  margin-right: 5px;
+  width: calc((100% - 10px)/3);
+}
+/*伪类应用，最右一张图片右边空白为零*/
+.col-md-4:last-of-type {
+  margin-right: 0;
+}
+.title4 {
+  font-size: 1.3em;
+}
+.link {
+  font-size: 0.3em;
+  padding: 1.5em;
+}
+.dog {
+  height: 400px;
+  order: -1;
+
+}
+.peach {
+  height: 400px;
+  order: 1
+}
+.app {
+  height: 400px;
+  order: 2;
+}

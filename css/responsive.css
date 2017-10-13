@@ -1,0 +1,68 @@
+/*断点设置以内容能够清晰呈现为最高原则，优先保证所要求的设备能清晰显示，但没有以所要求的设备的尺寸刻意设置断点。
+浏览器窗口小于７００像素时，图片不再并排显示。*/
+@media only screen and (max-width:700px) {
+    .row3 {
+      display: inline;
+    }
+    .col-md-4 {
+      width: 100%;
+    }
+    .dog {
+      width: 100%;
+      height: 100%;
+      order: 2;
+    }
+    .peach {
+      width: 100%;
+      height: 100%;
+      order: 1
+    }
+    .app {
+      width: 100%;
+      height: 100%;
+      order: -1;
+    }
+}
+/*重点优化了再小屏幕时的现实效果*/
+@media only screen and (max-width:648px) {
+    .title1-1 {
+      font-size: 1.2em;
+      text-align: left;
+      vertical-align: bottom;
+    }
+    .title2-1 {
+      font-size: 0.8em;
+      text-align: left;
+      vertical-align: bottom;
+    }
+    .header {
+      margin-top: 20px;
+    }
+    .nav {
+      height: 60px;
+    }
+    .row1 {
+      height: 100%;
+    }
+    .row2 {
+      font-size: 1em;
+    }
+    .imgcontainer {
+      padding-top: 20px;
+    }
+    .article-name {
+      font-size: 0.8em;
+      text-align:center;
+      margin-top: -5px;
+    }
+    .link-blog {
+      text-align:center;
+      margin-top: -20px;
+    }
+    .title4 {
+      font-size: 0.8em;
+    }
+    .link {
+      font-size: 0.9em;
+    }
+}
